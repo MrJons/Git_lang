@@ -39,7 +39,11 @@ class LanguageFinder
 
   def input_handler
     if @user == nil
-      raise StandardError, INPUT_ERRORS[:no_user]
+      begin
+        raise StandardError
+      rescue
+        puts INPUT_ERRORS[:no_user]
+      end
     else
       true
     end
