@@ -6,7 +6,7 @@
 - Clone repos,
 - `cd` into repo root,
 - run `bundle`,
-- run file followed by chosen username, eg. as follows: `ruby ./lib/language_finder.rb username`,
+- run file followed by chosen username, eg. as follows: `ruby lang.rb username`,
 - feedback string will be returned.
 
 #### Features
@@ -17,6 +17,6 @@
 - Error handle for non-existent Github user.
 
 #### Tests
-Tests passing. to run, comment out lines 54 & 55 and run `rspec` in the terminal root file.
+Tests passing. Run with `rspec` in the terminal root file.
 
 ###### Completion time est: 2 hours

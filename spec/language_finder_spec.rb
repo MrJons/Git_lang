@@ -11,7 +11,7 @@ describe LanguageFinder do
 
     it "should return 'provide username' prompt if username not given" do
       blank = LanguageFinder.new(nil)
-      ERROR = "Please enter a Github username after launching app - eg. 'ruby ./lib/language_finder.rb username'"
+      ERROR = "Please enter a Github username after launching app - eg. 'ruby lang.rb username'"
       expect{blank.print_top_language}.to raise_error(ERROR)
     end
   end

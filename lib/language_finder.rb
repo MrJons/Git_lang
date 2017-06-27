@@ -46,10 +46,7 @@ class LanguageFinder
   end
 
   INPUT_ERRORS = {
-    no_user: "Please enter a Github username after launching app - eg. 'ruby ./lib/language_finder.rb username'"
+    no_user: "Please enter a Github username after launching app - eg. 'ruby lang.rb username'"
   }
 
 end
-
-a = LanguageFinder.new(ARGV[0])
-puts a.print_top_language
