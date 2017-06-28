@@ -7,7 +7,7 @@ class LanguageFinder
     @user = user
   end
 
-  def print_top_language
+  def top_language
     if input_handler == true
       language_list = get_languages
       top_lang = language_list.last
